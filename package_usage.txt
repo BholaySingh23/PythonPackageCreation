@@ -1,0 +1,7 @@
+pip install bns_geometry3d
+from bns_geometry3d import BnsGeometry3D, PI
+
+print("Surface Area of Sphere:", BnsGeometry3D.sphere_area(5))
+print("Surface Area of Cylinder:", BnsGeometry3D.cylinder_area(3, 7))
+print("Surface Area of Cube:", BnsGeometry3D.cube_area(4))
+print("Value of PI:", PI)
